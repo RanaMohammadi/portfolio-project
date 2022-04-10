@@ -1,12 +1,49 @@
+:root {
+  --primary-color: #1f2937;
+  --secondary-color: #d97707;
+  --default-font: "Poppins", sans-serif;
+  --heading-font: "Fredoka One", cursive;
+}
 body {
-  background-color: darkblue;
+  background-color: var(--primary-color);
+  font-family: var(--default-font);
+}
+.row {
+  margin: 250px 80px;
 }
 h1 {
   color: white;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 25px;
 }
-.github-logo {
+h4 {
   color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.summary {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 50px;
+}
+.button {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 12px 18px;
+  margin: 20px;
+}
+.work {
+  border: solid white 1px;
+
+  background-color: var(--primary-color);
+}
+.contact {
+  background-color: var(--secondary-color);
 }
 img {
-  max-width: 200px;
+  max-width: 700px;
+  max-height: 500px;
 }
