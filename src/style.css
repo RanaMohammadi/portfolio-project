@@ -1,6 +1,12 @@
 body {
-  background-color: black;
+  background-color: darkblue;
 }
 h1 {
   color: white;
+}
+.github-logo {
+  color: white;
+}
+img {
+  max-width: 200px;
 }
