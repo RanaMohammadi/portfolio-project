@@ -27,6 +27,11 @@ h4 {
   font-size: 30px;
   font-weight: bold;
 }
+h3 {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
 h2 {
   color: white;
   font-size: 40px;
@@ -65,16 +70,24 @@ img {
   font-size: 22px;
   margin: 25px;
 }
+.about-me {
+  font-size: 25px;
+  margin: 70px;
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
 @media (max-width: 800px) {
-  h1 {
-    color: red;
-  }
   .start {
     margin: 60px;
   }
-  .projects {
+  .works {
     margin-top: 30px;
-    align-self: center;
+    text-align: center;
+  }
+  .about {
+    text-align: center;
   }
   .button {
     max-width: 50px;
