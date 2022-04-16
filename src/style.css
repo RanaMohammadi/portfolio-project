@@ -70,13 +70,18 @@ img {
   font-size: 22px;
   margin: 25px;
 }
-.about-me {
+.content {
   font-size: 25px;
   margin: 100px;
   text-align: center;
   padding: 40px;
 }
 .bold {
+  font-weight: bold;
+}
+.email {
+  text-decoration: none;
+  color: var(--secondary-color);
   font-weight: bold;
 }
 @media (max-width: 800px) {
