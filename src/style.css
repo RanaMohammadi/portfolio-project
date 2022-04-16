@@ -72,8 +72,9 @@ img {
 }
 .about-me {
   font-size: 25px;
-  margin: 70px;
+  margin: 100px;
   text-align: center;
+  padding: 40px;
 }
 .bold {
   font-weight: bold;
