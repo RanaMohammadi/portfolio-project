@@ -84,6 +84,27 @@ img {
   color: var(--secondary-color);
   font-weight: bold;
 }
+nav img {
+  max-height: 40px;
+}
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline;
+  line-height: 40px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+nav li a {
+  color: white;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+nav li a:hover {
+  color: var(--secondary-color);
+}
 @media (max-width: 800px) {
   .start {
     margin: 60px;
@@ -102,5 +123,9 @@ img {
   }
   img {
     margin-top: 40px;
+  }
+  nav img {
+    padding: 0;
+    margin: 0;
   }
 }
