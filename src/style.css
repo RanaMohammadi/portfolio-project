@@ -105,6 +105,9 @@ nav li a {
 nav li a:hover {
   color: var(--secondary-color);
 }
+.logo img {
+  max-width: 50px;
+}
 @media (max-width: 800px) {
   .start {
     margin: 60px;
