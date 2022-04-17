@@ -116,8 +116,19 @@ nav li a:hover {
     margin-top: 30px;
     text-align: center;
   }
-  .about {
+  .contact-me,
+  .content,
+  .projects,
+  .about,
+  .get {
     text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .email {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
   }
   .button {
     max-width: 50px;
